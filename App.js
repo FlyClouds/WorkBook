@@ -113,7 +113,6 @@ export default class App extends Component {
               <Text style={styles.headerTitle}>单词本</Text>
           </View>
           <SectionList
-            style={styles.sctionView}
             ref={(ref) => { this.sectionList = ref }}
             showsVerticalScrollIndicator={false}
             getItemLayout={this._getItemLayout.bind(this)}
@@ -151,18 +150,15 @@ const styles = StyleSheet.create({
     fontSize: 18,
     color:'#fff',
   },
-  sctionView:{
-    flex: 1,
-  },
   sectionHeader: {
 		height: HEADER_HEIGHT,
 		paddingLeft: 10,
 		justifyContent: 'center',
+		backgroundColor: 'rgba(247,247,247,1.0)',
 	},
 	sectionHeaderTxt: {
 		fontSize: 14,
 		fontWeight: 'bold',
-		backgroundColor: 'rgba(247,247,247,1.0)',
 	},
 	sectionItem: {
 		height: ITEM_HEIGHT,
@@ -188,8 +184,4 @@ const styles = StyleSheet.create({
 		paddingVertical: 1,
 		width: 20,
 	},
-	inactivetext: {
-		fontWeight: '700',
-		color: '#CCCCCC'
-	}
 });
