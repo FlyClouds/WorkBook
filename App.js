@@ -49,6 +49,7 @@ export default class App extends Component {
     });
 	}
 
+	 //计算每个index的length和offset
   _setItemLayout(list) {
 
 		let [itemHeight, headerHeight] = [ITEM_HEIGHT, HEADER_HEIGHT];
