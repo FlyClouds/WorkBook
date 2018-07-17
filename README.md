@@ -1,5 +1,5 @@
 # WorkBook
-本代码使用了单词本功能，也是React Native中SectionList的使用方法，尤其是getItemLayout计算index的方法，官网留的坑。
+本代码实现了单词本功能，也是React Native中SectionList的使用方法，尤其是getItemLayout计算index的方法，官网留的坑。
 
 使用说明地址： [https://www.jianshu.com/p/1ad5eedc1c5e](https://www.jianshu.com/p/1ad5eedc1c5e)
 
